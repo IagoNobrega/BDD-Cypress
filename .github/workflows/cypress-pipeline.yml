@@ -32,7 +32,7 @@ jobs:
 
        # upload ralatorios mochawesome   
       - name: Upload Mochawesome Reports
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: mochawesome-reports
           path: cypress\reports\html
